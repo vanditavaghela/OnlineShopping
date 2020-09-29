@@ -13,6 +13,7 @@ $(document).ready(function() {
         }
     }, 100);
     // $("#afterSuccess").hide();
+    $("#afterSuccess").css('z-index','-10');
 });
 function gotopage(page,id=false) {
     var qString = "";
@@ -57,6 +58,7 @@ function placeOrder() {
             // gotopage('cart');
 
             $("#afterSuccess").show();
+            $("#afterSuccess").css('z-index','9999');
             $("#cartText").html('Your Order Placed Successfully !!!');
             $("#cartpage").hide();
             $("#incart").html(''); 
