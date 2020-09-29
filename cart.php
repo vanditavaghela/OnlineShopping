@@ -8,10 +8,10 @@ $userProducts = $objshoppie->getUserProducts();
 $productCount = count($userProducts);
 $total_price  = 0;
 ?>
-<div  class="container ">
+<div  class="container " style="">
 <?
 if(!empty($productCount)) { ?>
-<div id="cartpage" class="  " style="padding-top: 130px">
+<div id="cartpage" class="  " >
 	<div class="row">
 		<div class="col-md-12 col-lg-12 wrapper-div-cart">
 			<div class="col-md-7 col-lg-7 lfloat" >
@@ -101,7 +101,7 @@ if(!empty($productCount)) { ?>
 <?
 } ?>
 
-<div id="afterSuccess" class=" " style="top:130px;">
+<div id="afterSuccess" class="col-md-7 col-lg-12 " style="padding-top:130px;">
 	<div class="row">
 		<div class="col-md-12 col-lg-12 wrapper-div-cart">
 			<div class="col-md-7 col-lg-7 lfloat" >
