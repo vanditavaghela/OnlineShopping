@@ -5,3 +5,7 @@
   Product Detail Page
   Checkout Page 
   Success Page
+
+
+
+For Result images see,result_images/
