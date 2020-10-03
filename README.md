@@ -8,4 +8,5 @@
 
 
 
-For Result images see,result_images/
+For Result images see folder,
+imgs/
